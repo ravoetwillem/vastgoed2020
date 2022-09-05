@@ -1,0 +1,1219 @@
+
+@import url("https://use.typekit.net/rzm1xcy.css");
+@import url("https://use.typekit.net/pvn1ynx.css");
+
+/*Regulator Nova Bold
+
+font-family: regulator-nova, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Regulator Nova Bold Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Regulator Nova Demi Bold
+
+font-family: regulator-nova, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Regulator Nova Demi Bold Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 600;
+font-style: italic;
+
+Regulator Nova Extra Light
+
+font-family: regulator-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Regulator Nova Extra Light Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 200;
+font-style: italic;
+
+Regulator Nova Heavy
+
+font-family: regulator-nova, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Regulator Nova Heavy Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 900;
+font-style: italic;
+
+Regulator Nova Light
+
+font-family: regulator-nova, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Regulator Nova Light Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 300;
+font-style: italic;
+
+Regulator Nova Medium
+
+font-family: regulator-nova, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Regulator Nova Medium Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 500;
+font-style: italic;
+
+Regulator Nova Thin
+
+font-family: regulator-nova, sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Regulator Nova Thin Italic
+
+font-family: regulator-nova, sans-serif;
+font-weight: 100;
+font-style: italic;
+
+Regulator Nova Cameo
+
+font-family: regulator-nova-cameo, sans-serif;
+font-weight: 400;
+font-style: normal;*/
+
+
+
+body {
+  background-color: #efe1ca;
+  font-family: regulator-nova, sans-serif !important;
+  /*font-weight: 400;
+  max-width: 1366px;*/
+}
+.wrap{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+/*SCREEN XL **********************************************************************************************/
+@media screen and (max-width: 3500px) {
+ #header{
+  background-color:white;
+}
+h1{
+  font-size:3em;
+  font-weight:400;
+  text-align: center;
+  line-height:0.8em;
+  height: 75px;
+  margin-top:15px;
+}
+h2{
+  font-size:3em;
+  /*line-height:3.4em;*/
+  font-weight:400;
+  margin-bottom: 20px;
+}
+.kaarten{
+  width:102% !important;
+}
+.kaart{
+  /*margin-left:15px;*/
+  width:50%;
+  height:auto;
+}
+.titKaart{
+  font-size:22px;
+  line-height:24px;
+}
+.titel{
+  width:80%!important;
+  margin-top:-13px;
+}
+.tekst{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 25px;
+-moz-column-gap: 25px;
+column-gap: 25px;
+font-size: 13px;
+text-align:justify;
+hyphens: auto;
+}
+.tussenTekst{
+  font-size:18px;
+}
+.inleidingV{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+  }
+  .inleidingH{
+    font-family: regulator-nova, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    text-align:left;
+    color:#A5A5A5
+    }
+    .inleidingA{
+      font-family: regulator-nova, sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 18px;
+      text-align:left;
+      color:#A5A5A5
+      }
+.firstTekstV:first-letter {
+ font-family : regular-nova, sans-serif;
+ font-weight:900;
+ font-size : 117px;
+ color : darkred;
+ padding:5px px -100px -100px;
+ margin-right:5px;
+ margin-top:-37px;
+ margin-bottom:-45px;
+ float : left;  
+}
+.firstTekstH:first-letter {
+  font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkgreen;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+ .firstTekstA:first-letter {
+  font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkblue;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+.quoteV{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkred;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.quoteH{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkgreen;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.quoteA{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkblue;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.auteurQuote{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-10px;
+  margin-left:10px;
+}
+.functieQuote{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-18px;
+  margin-left:10px;
+}
+#kaderstuk{
+  background-color: #c4baa7;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  width:93%;
+  font-family: korolev !important;
+  font-size: 12px;
+}
+.kaderTitel{
+  font-family: korolev;
+  font-weight:800;
+  font-size:18px;
+  line-height: 19px;
+  margin-top: 15px;
+}
+.firstKader:first-letter {
+ font-family : korolev, sans-serif;
+ font-weight:900;
+ font-size : 41px;
+ color : black;
+ padding:5px px -40px -40px;
+ margin-right:5px;
+ margin-top:-11px;
+ margin-bottom:-15px;
+ float : left;  
+}
+.tussenKader{
+  font-family: korolev;
+  font-weight:800;
+  font-size:16px;
+}
+#artikel{
+  margin-top:25px;
+  padding-left:20px;
+  padding-right:20px;
+  border-left:1px solid black;
+  border-right: 1px solid black;
+}
+#tabelPrijzen{
+  /*margin-top:25px;*/
+  padding-left:20px;
+  padding-right:20px;
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  font-size: 11px;
+}
+.cijfer1{
+  padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{
+  padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{
+  font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+}
+.cijferA{
+  font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkblue;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferH{
+  font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkgreen;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferV{
+  font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkred;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferTekst{
+  font-family:Korolev, sans-serif;
+  font-size: 13px;
+  font-weight:700;
+  color:black;
+  margin-left:10px;
+  margin-bottom:40px;
+  margin-top:-15px!important;
+}
+}
+
+/*SCREEN LG **********************************************************************************************/
+@media screen and (max-width: 993px) {
+  #header{
+   background-color:white;
+ }
+ h1{
+   font-size:2.5em;
+   font-weight:400;
+   text-align: center;
+   line-height:0.8em;
+   height: 60px;
+   margin-top:20px;
+ }
+ .kaart{
+  /*margin-left:15px;*/
+  width:50%;
+  height:auto;
+}
+.titKaart{
+  font-size:20px;
+  line-height:21.8px;
+}
+.voetnoot{
+  position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+.titel{
+  width:80%!important;
+  margin-top:-13px;
+}
+.tekst{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 25px;
+-moz-column-gap: 25px;
+column-gap: 25px;
+font-size: 13px;
+text-align:justify;
+hyphens: auto;
+}
+.tussenTekst{
+  font-size:18px;
+}
+.inleiding{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+  }
+.firstTekst:first-letter {
+ font-family : regular-nova, sans-serif;
+ font-weight:900;
+ font-size : 117px;
+ color : crimson;
+ padding:5px px -100px -100px;
+ margin-right:5px;
+ margin-top:-37px;
+ margin-bottom:-45px;
+ float : left;  
+}
+#artikel{
+  margin-top:25px;
+  margin-left:-15px;
+  padding-left:0px;
+  padding-right:20px;
+  border-left:none;
+  border-right: 1px solid black;
+}
+#tabelPrijzen{
+  font-family: korolev !important;
+  margin-top:0px;
+  margin-left:-15px;
+  padding-left:0px;
+  padding-right:20px;
+  border-left:none !important;
+  border-right: 1px solid black;
+  font-size: 12px;
+  margin-bottom:20px;
+}
+td.first{
+  font-family: korolev !important;
+  border-left:none !important;
+}
+.quote{
+  font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:crimson;
+}
+.cijfer1{
+  padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{
+  padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{
+  font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+}
+ }
+
+/*SCREEN MD **********************************************************************************************/
+ @media screen and (max-width: 768px) {
+  #header{
+   background-color:white;
+ }
+ h1{
+   font-size:2em;
+   font-weight:400;
+   line-height:0.8em;
+   text-align: center;
+   height: 55px;
+   margin-top:15px;
+ }
+ .kaart{
+  font-size: 18px !important;
+  /*margin-left:15px;*/
+  width:50%;
+  height:auto;
+}
+.titKaart{
+  font-size:16px;
+  line-height:17.4px;
+}
+.voetnoot{
+  position:fixed;
+  font-size:12px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+#artikel{
+  margin-top:25px;
+  padding-left:0px !important;
+  padding-right:20px;
+  border-left:none !important;
+  border-right: 1px solid black;
+}
+#tabelPrijzen{
+  /*margin-top:25px;*/
+  padding-left:20px;
+ /* padding-right:20px;*/
+ /* border-left:1px solid black;*/
+  border-right: 1px solid black;
+}
+.cijfer1{
+  padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{
+  padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{
+  font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+}
+}
+
+ /*SCREEN SM **********************************************************************************************/
+ @media screen and (max-width: 576px) {
+  #header{
+   background-color:white;
+  /* position:fixed !important;*/
+ }
+ h1{
+   font-size: 1.5em;
+   font-weight:400;
+   line-height:0.9em;
+   text-align: center;
+   height: 55px;
+   margin-top:10px;
+ }
+ /*.kaart h4{
+  font-size: 16px !important;
+ }*/
+.kaarten{
+  margin-bottom:25px!important;
+ }
+ #kaartPrijzen{
+  width:100%;
+  height:100%;
+}
+#kaartTransacties{
+  width:100%;
+  height:100%;
+}
+.kaart{
+  /*margin-left:15px;*/
+  width:100%;
+  height:auto;
+  /*margin-left:15px;*/
+}
+.titKaart{
+  font-size:18px;
+  line-height:19.6px;
+}
+.voetnoot{
+  position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+.cijfer1{
+  padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{
+  padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{
+  font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+}
+}
+
+ /*HEADER **********************************************************************************************/
+
+/* Style the header */
+.header {
+  position:fixed;
+  padding: 10px 16px;
+  background-color:white;
+  z-index: 1;
+  height: 100px !important;
+  width: 100%;
+}
+.t1span{
+  line-break: strict;
+}
+
+/*NAV **********************************************************************************************/
+.nav{
+  /*margin-top:100px !important;*/
+  position:fixed;
+  margin-top:90px;
+  z-index: 1;
+}
+
+/*KAARTEN **********************************************************************************************/
+
+.svgVlaamsBrabant{
+  x:100px; 
+  y:100px; 
+  width: 90%;
+  height: 90%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgAntwerpen1{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  /*background-color:red;*/
+}
+.svgAntwerpen2{
+  x:100px; 
+  y:100px; 
+  /*width: 100%;
+  height: 100%;*/
+  margin-top:0px;
+  margin-bottom:0px;
+  -webkit-transform:translateY(-406px);
+  -webkit-transform:scale(40%)!important;
+  transform:translateY(-406px);
+  -webkit-transform:translateX(-406px)!important;
+  position:absolute;
+
+  /*background-color:red;*/
+}
+.svgBrussel{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:-10px;
+  margin-bottom:20px;
+}
+.svgHenegouwen{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+.svgLimburg{
+  x:100px; 
+  y:100px; 
+  width: 125%;
+  height: 125%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.svgLuik{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:-20px;
+}
+.svgLuxemburg{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+.svgNamen{
+  x:100px; 
+  y:100px; 
+  width: 90%;
+  height: 90%;
+  margin-top:20px;
+  margin-bottom:-10px;
+}
+.svgOostVlaanderen{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgVlaamsBrabant{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgWaalsBrabant{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.svgWestVlaanderen{
+  x:100px; 
+  y:100px; 
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+polygon{
+  /*fill: #777777;*/
+  stroke: white;
+}
+
+/*.gemeentenProvincie{
+  fill: white;
+ }*/
+
+.titK{
+
+}
+
+.divKaart{
+  width:100%;
+  /*margin:10px;*/
+  height:auto;
+  background-color:#c4baa7;
+  margin-bottom:20px;
+}
+.kaarten{
+  background-color:none;
+  width:100%;
+  height:100%;
+  margin-top: 170px;
+  margin-bottom:25px;
+}
+.kaarten h4{
+  font-size:20px;
+}
+
+
+
+/*LEGENDE PRIJZEN ___________________________________________________________________________________*/
+
+.legende{
+  /*border:solid 3px #bcab8f;*/
+  border:none;
+  font-size: 12px;
+  text-align:bottom; 
+  background-color:none;
+  height:100px;
+}
+.legendeKop{
+  border:none;
+  font-size:15px;
+  text-align:left;
+}
+.legendeItems{
+  border:none;
+  border-spacing:6px;
+}
+
+.legendeItems td{
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+#legendePrijsV{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendeTransactiesV{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.lOnbekend{background-color: #c4baa7; border-left:solid 15px #C0C0C0;}
+.lGroter0{background-color: #c4baa7; border-left:solid 15px darkgreen;}
+.lGroter1{background-color: #c4baa7; border-left:solid 15px forestgreen;}
+.lGroter2{background-color: #c4baa7; border-left:solid 15px limegreen;}
+.lGroter3{background-color: #c4baa7; border-left:solid 15px lime;}
+.lGroter4{background-color: #c4baa7; border-left:solid 15px greenyellow;}
+.lGroter5{background-color: #c4baa7; border-left:solid 15px #FFFF88;}
+.lGroter6{background-color: #c4baa7; border-left:solid 15px #FAEE0a;}
+.lGroter7{background-color: #c4baa7; border-left:solid 15px gold;}
+.lGroter8{background-color: #c4baa7; border-left:solid 15px orange;}
+.lGroter9{background-color: #c4baa7; border-left:solid 15px darkorange;}
+.lGroter10{background-color: #c4baa7; border-left:solid 15px orangered;}
+.lGroter11{background-color: #c4baa7; border-left:solid 15px crimson;}
+.lGroter12{background-color: #c4baa7; border-left:solid 15px chocolate;}
+.lGroter13{background-color: #c4baa7; border-left:solid 15px sienna;}
+.lGroter14{background-color: #c4baa7; border-left:solid 15px maroon;}
+
+
+/*TABEL PRIJZEN ********************************************************************************************************/
+
+tr:nth-child(even) {
+  background: #e1d4bf;
+}
+tr:nth-child(odd) {
+  background: #efe1ca; 
+}
+.provincieRij:nth-of-type(2) {
+  font-family: korolev !important;
+  background: #000000;
+  height:20px;
+  font-weight: 600;
+}
+.arrondissementRij:nth-of-type(even) {
+  font-family: korolev !important;
+  background: #bcab8f;
+  height:20px;
+  font-weight: 600;
+}
+.arrondissementRij:nth-of-type(odd) {
+  font-family: korolev !important;
+  background: #bcab8f;
+  height:20px;
+  font-weight: 600;
+}
+.provincieTabel {
+  font-family: korolev !important;
+  border-collapse: collapse;
+  border: none;
+  border-bottom: solid #000000 1px;
+  width: 100%;
+  background-color: #efe1ca;
+}
+.tabelKopjes{
+  text-align:center;
+}
+.provincieTabel th {
+  background-color: #c4baa7;
+  height:20px;
+  border-left: solid #000000 1px;
+  font-weight: 700;
+  text-align:center;
+  font-family: korolev !important;
+}
+.provincieTabel tr.provincieRij{
+  background-color: #000000;
+  border-left: solid #000000 1px !important;
+  color: #FFFFFF;
+  margin:-5;
+}
+.provincieTabel td {
+  border-left: solid #000000 1px;
+  text-align:center;
+  height:20px;
+}
+.provincieTabel .first {
+  border-left: none !important;
+  text-align:left;
+}
+.bold {
+  font-weight: 700;
+}
+.boldRed {
+  font-weight: 700;
+  color: darkred !important;
+}
+.boldGreen {
+  font-weight: 700;
+  color: darkgreen !important;
+}
+.boldBlue {
+  font-weight: 700;
+  color: darkblue !important;
+}
+.hoofdtitel {
+  text-align: center !important;
+  text-transform: uppercase;
+  height: 3em;
+  margin-top: 1em;
+}
+
+.pOnbekend{fill:#D8D8D8;}
+.pGroter0{fill:darkgreen;}
+.pGroter1{fill:forestgreen;}
+.pGroter2{fill:limegreen;}
+.pGroter3{fill:lime;}
+.pGroter4{fill:greenyellow;}
+.pGroter5{fill:lightyellow;}
+.pGroter6{fill:#FAEE0a;}
+.pGroter7{fill:gold;}
+.pGroter8{fill:orange;}
+.pGroter9{fill:darkorange;}
+.pGroter10{fill:orangered;}
+.pGroter11{fill:crimson;}
+.pGroter12{fill:chocolate;}
+.pGroter13{fill:sienna;}
+.pGroter14{fill:maroon;}
+
+/*TABEL TRANSACTIES ********************************************************************************************************/
+
+.tTransactie1V{fill:pink}
+.tTransactie2V{fill:lightcoral}
+.tTransactie3V{fill:orangered}
+.tTransactie4V{fill:red}
+.tTransactie5V{fill:firebrick;}
+
+.tTransactie1H{fill:palegreen}
+.tTransactie2H{fill:chartreuse}
+.tTransactie3H{fill:limegreen}
+.tTransactie4H{fill:green}
+.tTransactie5H{fill:darkgreen;}
+
+.tTransactie1A{fill:aqua}
+.tTransactie2A{fill:deepskyblue}
+.tTransactie3A{fill:dodgerblue}
+.tTransactie4A{fill:blue}
+.tTransactie5A{fill:darkblue;}
+
+/*#legendeTransactiesV{
+  margin-top:-100px;
+}*/
+
+/*BLOK2 ********************************************************************************************************/
+
+.blok2{
+
+  /*padding-left:25px;*/
+  }
+  
+  .pijlPositive{
+    /*stroke: solid white 2px ;
+    fill: forestgreen;*/
+    /**margin-bottom:20px;*/
+    background-color: forestgreen;
+    width:100%;
+    height: 170px;
+    /*border: 2pt solid white;*/
+    /*clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+    clip-path: polygon(50% 0%, 100% 30%, 90% 30%, 90% 100%, 10% 100%, 10% 30%, 0% 30%, 50% 0%);
+  }
+  .pijlNegative{
+    /*stroke: solid white 2px ;
+    fill: forestgreen;*/
+    /*margin-bottom:20px;*/
+    background-color: crimson !important;
+    width:100%;
+    height: 170px;
+    /*border: 2pt solid white;*/
+    /*clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+    clip-path: polygon(10% 0%, 10% 70%, 0% 70%, 50% 100%, 100% 70%, 90% 70%, 90% 0%);
+  }
+  
+  
+  .vierkantje{
+    font-size:21px;
+    line-height:0.8em;
+    vertical-align: sub;
+
+  }
+
+  #sterksteStijger{
+    margin-top:25px !important;
+  }
+  #sterksteDaler{
+    margin-top:25px;
+  }
+  #duursteGemeente{
+    margin-top:25px;
+  }
+  #goedkoopsteGemeente{
+    margin-top:25px;
+    margin-bottom:60px;
+  }
+  #kaderstuk{
+    margin-top:25px;
+  }
+  #quote1{
+    margin-top:25px;
+  }
+  #quote2{
+    margin-top:25px;
+  }
+  #cijfer{
+    margin-top:25px;
+  }
+
+.tekst{
+}
+
+/*FOOTER ********************************************************************************************************/
+
+.voetnoot{
+  position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+
+
+/*INFOBOX ********************************************************************************************************/
+
+
+
+/*
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+ visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.popup .hide {
+  visibility: none;
+ /* -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}*/
+
+/*@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}*/
+
+
+ /*.infoP{
+    display: none;
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 0px;
+    clip-path: polygon(0 0,0 100px,95px 100px,100px 115px,105px 100px,200px 100px,200px 0px);
+    position:absolute;
+  }*/
+ #infoP{
+    /*display: block;*/
+    width: 150px;
+    height: 150px;
+    background: white;
+    /*margin-top: 0px;
+    margin-bottom: 0px;*/
+    clip-path: polygon(0px 0px,0px 80px,70px 80px,80px 115px,90px 80px,200px 80px,150px 0px);
+    position:absolute;
+    z-index: 0!important;
+    opacity:0;
+    /*transform:translateX(0px)!important;
+    transform:translateY(-502px)!important;*/
+
+  }
+  /*
+polygon{
+  content:'';
+  fill:red;
+}
+  polygon::after{
+    content:'';
+    display: block!;
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 0px;
+    clip-path: polygon(0 0,0 100px,95px 100px,100px 115px,105px 100px,200px 100px,200px 0px);
+    z-index:1;
+    position:absolute;
+  }*/
+  
+ .btn{
+    /*position:absolute;*/
+    
+    opacity:0.5;
+    /*z-index: 1;*/
+    /*-webkit-transform:translateY(-200px);*/
+  }
+ #polyP{
+ /*   margin-bottom: -300px ;*/
+   
+  }
+
+#polyPbtn{
+  /*position:absolute;*/
+    opacity:0.5;
+    z-index: 1 ;
+   /* transform:translateY(-202px);
+    margin-bottom:-200px!important;*/
+    /*-webkit-transform:scale(60);
+    transform:scale(60);
+    -webkit-transform:translateX(-30px);
+    transform:translateX(-30px);*/
+  }
+
+ 
