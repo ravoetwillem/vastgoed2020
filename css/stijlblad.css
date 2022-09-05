@@ -1,0 +1,1454 @@
+
+@import url("https://use.typekit.net/rzm1xcy.css");
+@import url("https://use.typekit.net/pvn1ynx.css");
+
+body {background-color: #efe1ca;
+  font-family: regulator-nova, sans-serif !important;
+}
+.wrap{margin-left:10px;
+  margin-right:10px;
+}
+
+
+/*INFOBOX ********************************************************************************************************/
+
+#infoVeld{width:100%;
+  height:60px;
+  background-color:#c4baa7;
+}
+#infoVeld2{width:100%;
+  height:60px;
+  background-color:#c4baa7;
+}
+
+.infoTekst{padding-top: 15px !important;
+  font-weight:400;
+  font-size:13px;
+  line-height: 14px;
+  text-align:center;
+}
+
+/*SCREEN XL **********************************************************************************************/
+@media screen and (max-width: 3500px) {#header{background-color:white;
+}
+
+h1{font-size:3em;
+  font-weight:400;
+  text-align: center;
+  line-height:0.8em;
+  height: 75px;
+  margin-top:15px;
+}
+h2{font-size:3em;
+  font-weight:400;
+  margin-bottom: 20px;
+}
+.kaarten{width:102% !important;
+}
+.kaart{width:50%;
+  height:auto;
+}
+.titKaart{font-size:22px;
+  line-height:24px;
+}
+.titel{width:80%!important;
+  margin-top:-13px;
+}
+.tekst{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+
+-webkit-column-gap: 25px;
+-moz-column-gap: 25px;
+column-gap: 25px;
+font-size: 13px;
+text-align:justify;
+hyphens: auto;
+}
+.tussenTekst{font-size:18px;
+}
+.inleidingV{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+  }
+.inleidingH{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+}
+.inleidingA{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+}
+.firstTekstV:first-letter {font-family : regular-nova, sans-serif;
+ font-weight:900;
+ font-size : 117px;
+ color : darkred;
+ padding:5px px -100px -100px;
+ margin-right:5px;
+ margin-top:-37px;
+ margin-bottom:-45px;
+ float : left;  
+}
+
+.firstTekstV {
+-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+  font-size: 13px;
+text-align:justify;
+hyphens: auto;
+ }
+
+.firstTekstH:first-letter {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkgreen;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+ .firstTekstA:first-letter {
+ -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkblue;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+.quoteV{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkred;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.quoteH{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkgreen;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.quoteA{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkblue;
+  margin-top:-8px;
+  margin-left:10px;
+}
+.auteurQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-10px;
+  margin-left:10px;
+}
+.functieQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-18px;
+  margin-left:10px;
+}
+#kaderstuk{background-color: #c4baa7;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  width:93%;
+  font-family: korolev !important;
+  font-size: 12px;
+}
+.kaderTitel{font-family: korolev;
+  font-weight:800;
+  font-size:18px;
+  line-height: 19px;
+  margin-top: 15px;
+}
+.firstKader:first-letter {font-family : korolev, sans-serif;
+ font-weight:900;
+ font-size : 41px;
+ color : black;
+ padding:5px px -40px -40px;
+ margin-right:5px;
+ margin-top:-11px;
+ margin-bottom:-15px;
+ float : left;  
+}
+.tussenKader{font-family: korolev;
+  font-weight:800;
+  font-size:16px;
+}
+#artikel{margin-top:25px;
+  padding-left:20px;
+  padding-right:20px;
+  border-left:1px solid black;
+  border-right: 1px solid black;
+}
+#tabelPrijzen{padding-left:20px;
+  padding-right:20px;
+  border-left:1px solid black;
+  border-right: 1px solid black;
+  font-size: 11px;
+}
+.pijlPositive{background-color: forestgreen;
+  width:100%;
+  height: 170px;
+  clip-path: polygon(50% 0%, 100% 30%, 90% 30%, 90% 100%, 10% 100%, 10% 30%, 0% 30%, 50% 0%);
+}
+.pijlNegative{background-color: crimson !important;
+  width:100%;
+  height: 170px;
+  clip-path: polygon(10% 0%, 10% 70%, 0% 70%, 50% 100%, 100% 70%, 90% 70%, 90% 0%);
+}
+.cijfer1{padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:35px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+  margin-bottom:8px;
+}
+.cijfer2{padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:35px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+  margin-bottom:8px;
+}
+.tekstPijlen{font-family: Korolev, sans-serif;
+  font-size:12px;
+  line-height:14px;
+  text-align:center;
+  color:white;
+  padding-left:40px;
+  padding-right:40px;
+}
+.cijferA{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkblue;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferH{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkgreen;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferV{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkred;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-15px;
+}
+.cijferTekst{font-family:Korolev, sans-serif;
+  font-size: 13px;
+  font-weight:700;
+  color:black;
+  margin-left:10px;
+  margin-bottom:40px;
+  margin-top:-15px!important;
+}
+}
+
+/*SCREEN LG **********************************************************************************************/
+@media screen and (max-width: 993px) {#header{ background-color:white;
+ }
+ h1{ font-size:2.5em;
+   font-weight:400;
+   text-align: center;
+   line-height:0.8em;
+   height: 60px;
+   margin-top:20px;
+ }
+ .kaart{
+  width:50%;
+  height:auto;
+}
+.titKaart{font-size:20px;
+  line-height:21.8px;
+}
+.voetnoot{position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+.titel{width:80%!important;
+  margin-top:-13px;
+}
+.tekst{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 25px;
+-moz-column-gap: 25px;
+column-gap: 25px;
+font-size: 13px;
+text-align:justify;
+hyphens: auto;
+}
+.tussenTekst{font-size:18px;
+}
+.inleiding{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:#A5A5A5
+  }
+.firstTekst:first-letter {font-family : regular-nova, sans-serif;
+ font-weight:900;
+ font-size : 117px;
+ color : crimson;
+ padding:5px px -100px -100px;
+ margin-right:5px;
+ margin-top:-37px;
+ margin-bottom:-45px;
+ float : left;  
+}
+#artikel{margin-top:25px;
+  margin-left:-15px;
+  padding-left:0px;
+  padding-right:20px;
+  border-left:none;
+  border-right: 1px solid black;
+}
+.firstTekstV:first-letter {font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkred;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+ 
+ .firstTekstV {
+ -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   column-gap: 25px;
+   font-size: 13px;
+ text-align:justify;
+ hyphens: auto;
+  }
+ 
+ .firstTekstH:first-letter {
+  -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   font-family : regular-nova, sans-serif;
+   font-weight:900;
+   font-size : 117px;
+   color : darkgreen;
+   padding:5px px -100px -100px;
+   margin-right:5px;
+   margin-top:-37px;
+   margin-bottom:-45px;
+   float : left;  
+  }
+  .firstTekstA:first-letter { 
+    -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   font-family : regular-nova, sans-serif;
+   font-weight:900;
+   font-size : 117px;
+   color : darkblue;
+   padding:5px px -100px -100px;
+   margin-right:5px;
+   margin-top:-37px;
+   margin-bottom:-45px;
+   float : left;  
+  }
+#tabelPrijzen{font-family: korolev !important;
+  margin-top:0px;
+  margin-left:-15px;
+  padding-left:0px;
+  padding-right:20px;
+  border-left:none !important;
+  border-right: 1px solid black;
+  font-size: 12px;
+  margin-bottom:20px;
+}
+td.first{font-family: korolev !important;
+  border-left:none !important;
+}
+
+.blok2{margin-left:20px;
+}
+.blok3{margin-left:-65px;
+}
+
+
+#kaderstuk{background-color: #c4baa7;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:10px;
+  margin-right:0px;
+  margin-top:20px;
+  width:auto;
+  font-family: korolev !important;
+  font-size: 12px;
+}
+.quote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:crimson;
+  margin-left:0px;
+  
+}
+.quoteV{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkred;
+  margin-top:-8px;
+  margin-left:0px;
+}
+.quoteH{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkgreen;
+  margin-top:-8px;
+  margin-left:0px;
+}
+.quoteA{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkblue;
+  margin-top:-8px;
+  margin-left:0px;
+}
+.auteurQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-10px;
+  margin-left:0px;
+}
+.functieQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-18px;
+  margin-left:0px;
+}
+
+.pijlPositive{background-color: forestgreen;
+  width:100%;
+  height: 250px;
+  clip-path: polygon(50% 0%, 100% 30%, 90% 30%, 90% 100%, 10% 100%, 10% 30%, 0% 30%, 50% 0%);
+}
+.pijlNegative{background-color: crimson !important;
+  width:100%;
+  height: 250px;
+  clip-path: polygon(10% 0%, 10% 70%, 0% 70%, 50% 100%, 100% 70%, 90% 70%, 90% 0%);
+}
+.cijfer1{font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:25px!important;
+  line-height:22px;
+  text-align:center;
+  color:white;
+  margin-bottom:8px;
+  padding-top:55px;
+  
+}
+.cijfer2{padding-top:15px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:25px!important;
+  line-height:22px;
+  text-align:center;
+  color:white;
+  margin-bottom:8px;
+  padding-top:55px;
+}
+.tekstPijlen{font-family: Korolev, sans-serif;
+  font-size:12px;
+  line-height:14px;
+  text-align:center;
+  padding-left:20px;
+  padding-right:20px;
+  color:white;
+  padding-left:30px;
+  padding-right:30px;
+}
+.cijferA{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkblue;
+  margin-left:60px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:0px;
+}
+.cijferH{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkgreen;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:0px;
+}
+.cijferV{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkred;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:0px;
+}
+.cijferTekst{font-family:Korolev, sans-serif;
+  font-size: 13px;
+  font-weight:700;
+  color:black;
+  margin-left:0px;
+  margin-bottom:40px;
+  margin-top:-15px!important;
+}
+}
+
+
+
+/*SCREEN MD **********************************************************************************************/
+ @media screen and (max-width: 768px) {#header{ background-color:white;
+ }
+ h1{ font-size:2em;
+   font-weight:400;
+   line-height:0.8em;
+   text-align: center;
+   height: 55px;
+   margin-top:15px;
+ }
+ .kaart{font-size: 18px !important;
+  width:50%;
+  height:auto;
+}
+.titKaart{font-size:16px;
+  line-height:17.4px;
+}
+.voetnoot{position:fixed;
+  font-size:12px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+#artikel{margin-top:25px;
+  padding-left:0px !important;
+  padding-right:20px;
+  border-left:none !important;
+  border-right: none;
+}
+.firstTekstV:first-letter {font-family : regular-nova, sans-serif;
+  font-weight:900;
+  font-size : 117px;
+  color : darkred;
+  padding:5px px -100px -100px;
+  margin-right:5px;
+  margin-top:-37px;
+  margin-bottom:-45px;
+  float : left;  
+ }
+
+ .firstTekstV { 
+  -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   column-gap: 25px; 
+   font-size: 13px;
+ text-align:justify;
+ hyphens: auto;
+  }
+ 
+ .firstTekstH:first-letter { 
+  -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   font-family : regular-nova, sans-serif;
+   font-weight:900;
+   font-size : 117px;
+   color : darkgreen;
+   padding:5px px -100px -100px;
+   margin-right:5px;
+   margin-top:-37px;
+   margin-bottom:-45px;
+   float : left;  
+  }
+  .firstTekstA:first-letter {
+    -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 25px;
+   -moz-column-gap: 25px;
+   font-family : regular-nova, sans-serif;
+   font-weight:900;
+   font-size : 117px;
+   color : darkblue;
+   padding:5px px -100px -100px;
+   margin-right:5px;
+   margin-top:-37px;
+   margin-bottom:-45px;
+   float : left;  
+  }
+#tabelPrijzen{
+  margin-top:25px;
+  padding-left:20px;
+  border-right: none;
+}
+.cijfer1{padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.blok1{margin-left:0px;
+}
+
+.blok3{
+margin-left:0px;
+}
+
+#kaderstuk{background-color: #c4baa7;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:5px;
+  margin-right:30px;
+  margin-top:20px;
+  width:100%;
+  font-family: korolev !important;
+}
+.quote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:crimson;
+  
+}
+.quoteV{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 5;
+  text-align:left;
+  color:darkred;
+  margin-top:10px;
+  margin-left:-3px;
+  line-height:18px;
+}
+.quoteH{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  text-align:left;
+  color:darkgreen;
+  margin-top:10px;
+  margin-left:10px;
+  margin-left:-3px;
+  line-height:18px;
+}
+.quoteA{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;
+  text-align:left;
+  color:darkblue;
+  margin-top:10px;
+  margin-left:-3px;
+  line-height:18px;
+}
+.auteurQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:0px;
+  margin-left:-3px;
+  margin-bottom:10px;
+}
+.functieQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-18px;
+  margin-left:-3px;
+  margin-bottom:-10px;
+}
+.cijferA{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkblue;
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:-10px;
+}
+.cijferH{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkgreen;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-10px;
+}
+.cijferV{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkred;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:-10px;
+}
+.cijferTekst{font-family:Korolev, sans-serif;
+  font-size: 13px;
+  font-weight:700;
+  color:black;
+  margin-left:10px;
+  margin-bottom:40px;
+  margin-top:-15px!important;
+}
+}
+
+ /*SCREEN SM **********************************************************************************************/
+ @media screen and (max-width: 576px) {#header{ background-color:white;
+  
+ }
+ h1{ font-size: 1.5em!important;
+   font-weight:400;
+   line-height:0.9em;
+   text-align: center;
+   height: 55px;
+   margin-top:10px;
+ }
+ h2{font-size:2em;
+  
+  font-weight:400;
+  margin-bottom: 20px;
+}
+
+.kaarten{margin-bottom:25px!important;
+ }
+ #kaartPrijzen{width:100%;
+  height:100%;
+}
+#kaartTransacties{width:100%;
+  height:100%;
+}
+.kaart{
+  width:100%;
+  height:auto;
+ 
+}
+.titKaart{font-size:18px;
+  line-height:19.6px;
+}
+.tekst{
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+  font-size: 13px;
+  text-align:justify;
+  hyphens: auto;
+  }
+  .firstTekstV {
+    -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+    font-size: 13px;
+  text-align:justify;
+  hyphens: auto;
+   }
+
+
+    p.letrine::first-letter{																	/*specificaties lettrine*/
+    font-family:Roboto;
+    float: left;
+    font-size:72px;
+    font-weight:400;
+    line-height:36px;
+    color:#000000;
+    padding-top:5px;
+    padding-right:1px;
+    }
+    
+    @-moz-document url-prefix() {    
+      #intro{    
+      margin-left:35px;
+      margin-right:35px;
+      font: 300 16px Roboto;
+      line-height: 20px;
+      }
+      p.letrine::first-letter{																	/*specificaties lettrine*/
+      font-family:Roboto;
+      float: left;
+      font-size:72px;
+      font-weight:400;
+      line-height:36px;
+      color:#000000;
+      padding-top:5px;
+      padding-right:1px;
+      }}
+  
+  .firstTekstH:first-letter { 
+  /* -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;*/
+    font-family : regular-nova, sans-serif;
+    font-weight:900;
+    font-size : 117px;
+    color : darkgreen;
+    padding:5px px -100px -100px;
+    margin-right:5px;
+    margin-top:-37px;
+    margin-bottom:-45px;
+    float : left;  
+   }
+   .firstTekstA:first-letter { 
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+    font-family : regular-nova, sans-serif;
+    font-weight:900;
+    font-size : 117px;
+    color : darkblue;
+    padding:5px px -100px -100px;
+    margin-right:5px;
+    margin-top:-37px;
+    margin-bottom:-45px;
+    float : left;  
+   }
+.voetnoot{position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+.cijfer1{padding-top:50px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.cijfer2{padding-top:25px;
+  font-family: Korolev, sans-serif;
+  font-weight:800;
+  font-size:40px;
+  line-height:22px;
+  text-align:center;
+  color:white;
+}
+.tekstPijlen{font-family: Korolev, sans-serif;
+  font-size:13px;
+  line-height:15px;
+  text-align:center;
+  color:white;
+}
+.quoteV{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkred;
+  margin-top:20px;
+  margin-left:-5px;
+}
+.quoteH{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkgreen;
+  margin-top:20px;
+  margin-left:-5px;
+}
+.quoteA{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  text-align:left;
+  color:darkblue;
+  margin-top:20px;
+  margin-left:-5px;
+}
+.auteurQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:5px;
+  margin-left:-5px;
+}
+.functieQuote{font-family: regulator-nova, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-align:left;
+  color:black;
+  margin-top:-18px;
+  margin-left:-5px;
+  margin-bottom:-10px;
+}
+.cijferA{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkblue;
+  margin-left:60px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:-10px;
+}
+.cijferH{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkgreen;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:-10px;
+}
+.cijferV{font-family:Korolev, sans-serif;
+  font-size: 60px;
+  font-weight:900;
+  color:darkred;
+  margin-left:10px;
+  margin-bottom:-15px;
+  margin-top:0px;
+  margin-left:-8px;
+}
+.cijferTekst{font-family:Korolev, sans-serif;
+  font-size: 13px;
+  font-weight:700;
+  color:black;
+  margin-left:-8px;
+  margin-bottom:40px;
+  margin-top:-15px!important;
+}
+}
+
+ /*HEADER **********************************************************************************************/
+
+/* Style the header */
+.header {position:fixed;
+  padding: 10px 16px;
+  background-color:white;
+  z-index: 1;
+  height: 100px !important;
+  width: 100%;
+}
+.t1span{line-break: strict;
+}
+
+/*NAV **********************************************************************************************/
+.nav{
+  position:fixed;
+  margin-top:90px;
+  z-index: 1;
+}
+
+/*KAARTEN **********************************************************************************************/
+
+.svgVlaamsBrabant{
+  width: 90%;
+  height: 90%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgAntwerpen{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+.svgBrussel{
+  width: 100%;
+  height: 100%;
+  margin-top:-10px;
+  margin-bottom:20px;
+}
+.svgHenegouwen{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+.svgLimburg{
+  width: 125%;
+  height: 125%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.svgLuik{width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:-20px;
+}
+.svgLuxemburg{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:0px;
+}
+.svgNamen{
+  width: 90%;
+  height: 90%;
+  margin-top:20px;
+  margin-bottom:-10px;
+}
+.svgOostVlaanderen{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgVlaamsBrabant{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.svgWaalsBrabant{width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.svgWestVlaanderen{
+  width: 100%;
+  height: 100%;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+polygon{
+  stroke: white ;
+}
+
+.gemeentenProvincie{
+  fill: white;
+ }
+
+.divKaart{width:100%;
+  height:auto;
+  background-color:#c4baa7;
+  margin-bottom:20px;
+}
+.kaarten{background-color:none;
+  width:100%;
+  height:100%;
+  margin-top: 170px;
+  margin-bottom:25px;
+}
+.kaarten h4{font-size:20px;
+}
+
+
+/*ARTIKEL ___________________________________________________________________________________*/
+/*
+.artikel{
+  -webkit-column-count: 1;
+  -moz-column-count:1;
+  column-count: 1;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+}
+.tekst{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+  font-size: 13px;
+  text-align:justify;
+  hyphens: auto;
+  }
+  */
+
+/*LEGENDE PRIJZEN ___________________________________________________________________________________*/
+
+.legende{
+  border:none;
+  font-size: 12px;
+  text-align:bottom; 
+  background-color:none;
+  height:100px;
+}
+.legendeKop{border:none;
+  font-size:15px;
+  text-align:left;
+}
+.legendeItems{border:none;
+  border-spacing:6px;
+}
+
+.legendeItems td{transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+#legendePrijsV{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendeTransactiesV{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendePrijsH{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendeTransactiesH{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendePrijsA{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#legendeTransactiesA{margin-top:10px;
+  margin-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.lOnbekend{background-color: #C0C0C0; border-left:solid 15px #C0C0C0;}
+.lGroter0{background-color: darkgreen; border-left:solid 15px darkgreen;}
+.lGroter1{background-color: forestgreen; border-left:solid 15px forestgreen;}
+.lGroter2{background-color: limegreen; border-left:solid 15px limegreen;}
+.lGroter3{background-color: greenyellow; border-left:solid 15px greenyellow;}
+.lGroter4{background-color: lightyellow; border-left:solid 15px lightyellow;}
+.lGroter5{background-color: #FFFF88; border-left:solid 15px #FFFF88;}
+.lGroter6{background-color: #FAEE0a; border-left:solid 15px #FAEE0a;}
+.lGroter7{background-color: gold; border-left:solid 15px gold;}
+.lGroter8{background-color: orange; border-left:solid 15px orange;}
+.lGroter9{background-color: darkorange; border-left:solid 15px darkorange;}
+.lGroter10{background-color: orangered; border-left:solid 15px orangered;}
+.lGroter11{background-color: crimson; border-left:solid 15px crimson;}
+.lGroter12{background-color: chocolate; border-left:solid 15px chocolate;}
+.lGroter13{background-color: sienna; border-left:solid 15px sienna;}
+.lGroter14{background-color: maroon; border-left:solid 15px maroon;}
+
+
+
+/*TABEL PRIJZEN ********************************************************************************************************/
+
+tr:nth-child(even) {background: #e1d4bf;
+}
+tr:nth-child(odd) {background: #efe1ca; 
+}
+.provincieRij:nth-of-type(2) {font-family: korolev !important;
+  background: #000000;
+  height:20px;
+  font-weight: 600;
+}
+.arrondissementRij:nth-of-type(even) {font-family: korolev !important;
+  background: #bcab8f;
+  height:20px;
+  font-weight: 600;
+}
+.arrondissementRij:nth-of-type(odd) {font-family: korolev !important;
+  background: #bcab8f;
+  height:20px;
+  font-weight: 600;
+}
+.provincieTabel {font-family: korolev !important;
+  border-collapse: collapse;
+  border: none;
+  border-bottom: solid #000000 1px;
+  width: 100%;
+  background-color: #efe1ca;
+}
+.tabelKopjes{text-align:center;
+}
+.provincieTabel th {background-color: #c4baa7;
+  height:20px;
+  border-left: solid #000000 1px;
+  font-weight: 700;
+  text-align:center;
+  font-family: korolev !important;
+  padding-left:3px;
+}
+.provincieTabel tr.provincieRij{background-color: #000000;
+  border-left: solid #000000 1px !important;
+  color: #FFFFFF;
+  margin:-5;
+  padding-left:3px;
+}
+.provincieTabel td {border-left: solid #000000 1px;
+  text-align:center;
+  height:20px;
+}
+.provincieTabel .first {border-left: none !important;
+  text-align:left;
+}
+.bold {font-weight: 700;
+}
+.boldRed {font-weight: 700;
+  color: darkred !important;
+}
+.boldGreen {font-weight: 700;
+  color: darkgreen !important;
+}
+.boldBlue {font-weight: 700;
+  color: darkblue !important;
+}
+.hoofdtitel {text-align: center !important;
+  text-transform: uppercase;
+  height: 3em;
+  margin-top: 1em;
+}
+
+.pOnbekend{fill:#C0C0C0 !important;}
+.pGroter0{fill:darkgreen;}
+.pGroter1{fill:forestgreen;}
+.pGroter2{fill:limegreen;}
+.pGroter3{fill:greenyellow;}
+.pGroter4{fill:lightyellow;}
+.pGroter5{fill:#FFFF88;}
+.pGroter6{fill:#FAEE0a;}
+.pGroter7{fill:gold;}
+.pGroter8{fill:orange;}
+.pGroter9{fill:darkorange;}
+.pGroter10{fill:orangered;}
+.pGroter11{fill:crimson;}
+.pGroter12{fill:chocolate;}
+.pGroter13{fill:sienna;}
+.pGroter14{fill:maroon;}
+
+/*TABEL TRANSACTIES ********************************************************************************************************/
+
+.tTransactie1V{fill:pink}
+.tTransactie2V{fill:lightcoral}
+.tTransactie3V{fill:orangered}
+.tTransactie4V{fill:red}
+.tTransactie5V{fill:firebrick;}
+
+.tTransactie1H{fill:palegreen}
+.tTransactie2H{fill:chartreuse}
+.tTransactie3H{fill:limegreen}
+.tTransactie4H{fill:green}
+.tTransactie5H{fill:darkgreen;}
+
+.tTransactie1A{fill:aqua}
+.tTransactie2A{fill:deepskyblue}
+.tTransactie3A{fill:dodgerblue}
+.tTransactie4A{fill:blue}
+.tTransactie5A{fill:darkblue;}
+
+/*#legendeTransactiesV{margin-top:-100px;
+}*/
+
+/*BLOK2 ********************************************************************************************************/
+
+
+  
+ 
+  
+  
+  .vierkantje{  font-size:21px;
+    line-height:0.8em;
+    vertical-align: sub;
+
+  }
+
+  #sterksteStijger{  margin-top:25px !important;
+  }
+  #sterksteDaler{  margin-top:25px;
+  }
+  #duursteGemeente{  margin-top:25px;
+  }
+  #goedkoopsteGemeente{  margin-top:25px;
+    margin-bottom:60px;
+  }
+  #kaderstuk{  margin-top:25px;
+  }
+  #quote1{  margin-top:25px;
+  }
+  #quote2{  margin-top:25px;
+  }
+  #cijfer{  margin-top:25px;
+  }
+
+#HERSTAPPE, #tHERSTAPPE{  z-index:2 !important;
+  }
+#PROVBRUSSEL{
+z-index:2 !important;
+}
+
+#PROVVLAAMSBRABANT{
+z-index:0 !important;
+}
+
+/*FOOTER ********************************************************************************************************/
+
+.voetnoot{position:fixed;
+  font-size:10px;
+  bottom:0;
+  margin-top:25px;
+  padding-top:16px;
+  background-color:white;
+  z-index: 1;
+  height: 60px !important;
+  width: 100%;
+  border-top:1px solid black;
+}
+
+#PROVBRUSSEL{
+z-index:12 !important;
+}
+#PROVVLAAMSBRABANT{
+z-index:0 !important;
+}
+
+.prov{stroke:white !important;
+  stroke-width:3.5px !important;
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+  .navbarSafari{  margin-top:-180px;
+    margin-bottom:180px;
+  }
+  .kaartenSafari{  padding-top:180px;
+  }
+
+  .legendeSafari{  -webkit-transform: scale(0.3)!important;
+  }
+
+}}
+
+@-moz-document url-prefix() {.firstTekstV::first-letter{  margin-top:8px;
+    margin-left:-8px;
+    margin-bottom:5px;
+   
+  }
+}
+
+
+
+
